@@ -1,0 +1,5 @@
+print('Esse programa calcula o seu salario baseado pela quandidade de horas trabalahadas e o valor da hora trabalhada \n')
+valor_hora =  input('De o valor da hora trabalhada \n')
+qnt_hora = input('De o quantidade de horas trabalhadas por mes \n')
+salario = int(valor_hora) * int(qnt_hora)
+print(f'O seu salario é {salario} \n')
